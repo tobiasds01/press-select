@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Press Select</title>
+    <link rel="shortcut icon" href="icono-web.png">
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/press_select-logo_completo.png" alt="Logo Press Select">
+    </header>
+    <nav class="flex">
+        <div><a href="index.html">Productos</a></div>
+        <div><a href="quienes-somos.html">Quiénes somos</a></div>
+        <div><a href="contacto.html">Contacto</a></div>
+    </nav>
+    <main id="contacto" class="container-fluid">
+        <h2>Contacto</h2>
+        <form action="/action_page.php">
+            <div class="form-group">
+              <label for="nombre-y-apellido">Nombre y apellido</label>
+              <input type="text" class="form-control" id="nombre-y-apellido">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" class="form-control" id="telefono">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <input type="text" class="form-control" id="mensaje">
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+          <h3>Comunicate con nosotros:</h3>
+          <div class="flex contactos-varios">
+            <div><img src="imagenes/iconos/icono-telefono-neg.png" alt="Icono teléfono"><h4>4465-7312</h4></div>
+            <div><img src="imagenes/iconos/icono-correo-neg.png" alt="Icono correo"><h4>info@pselect.com</h4></div>
+            <div><img src="imagenes/iconos/icono-ubicacion-neg.png" alt="Icono ubicación"><h4>Av. Vergara 1837<br>(Hurlingham)</h4></div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-1 col-sm-5 col-sm-offset-1 col-xs-6">
+                <h4>Categorías</h4>
+                <ul>
+                    <li><a href="index.html">Productos</a></li>
+                    <li><a href="quienes-somos.html">Quienes somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div id="contacto-footer" class="col-lg-3 col-sm-5 col-xs-6">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><img src="imagenes/iconos/icono-telefono.png" alt="Icono teléfono">4465-7312</li>
+                    <li><img src="imagenes/iconos/icono-correo.png" alt="Icono correo">info@pselect.com</li>
+                    <li><img src="imagenes/iconos/icono-ubicacion.png" alt="Icono ubicación">Hurlingham - Buenos Aires</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

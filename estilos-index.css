@@ -1,0 +1,91 @@
+.container-productos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 6vh;
+    gap: 4vw;
+    justify-content: space-around;
+}
+
+.container-productos div {
+    background-color: #19adf7;
+    margin-top: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    text-align: center;
+}
+
+#productos img {
+    max-width: 20vw;
+    max-height: 70vh;
+}
+
+#productos button {
+    margin: 1vw;
+}
+
+.puntos-suspensivos {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .container-productos {
+        display: block;
+    }
+
+    .container-productos div {
+        clear: left;
+        overflow: auto;
+        margin: 10vh 0;
+    }
+
+    #productos img {
+        float: left;
+        overflow: auto;
+        height: 100%;
+    }
+
+    #productos p {
+        margin-right: 2vw;
+    }
+
+    .recorte {
+        display: none;
+    }
+
+    .puntos-suspensivos {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .container-productos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    #productos img {
+        float: left;
+        overflow: auto;
+        max-height: 30vw;
+        margin-right: 2vw;
+    }
+
+    .recorte {
+        display: none;
+    }
+
+    .puntos-suspensivos {
+        display: inline;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    main h4 {
+        display: inline-block;
+    }
+
+    main .btn {
+        display: inline-block;
+    }
+
+
+}

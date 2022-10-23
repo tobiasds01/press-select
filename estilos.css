@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Squada+One&display=swap');
+
+/* CSS para toda la web */
+
+* { margin: 0px; padding: 0px; 
+    font-family: 'Roboto Condensed', 'Nanum Gothic', sans-serif;
+}
+
+header,main {
+    background-image: url(./imagenes/concrete-wall-textured-and-painted-backdrop.jpg);
+}
+
+.flex { display: flex; }
+.grid { display: grid; }
+
+header {
+    text-align: center;
+    padding: 1vh;
+}
+
+header img {
+    max-width: 50vw;
+}
+
+nav {
+    background-color: #f8ac18;
+    justify-content: space-around;
+    padding: 2vh;
+    margin: 0;
+}
+
+nav a {
+    color: #1b1b1d;
+    text-decoration: none;
+    font-size: calc(12px + 0.7vw);
+}
+
+html h2 {
+    font-family: 'Squada One', 'Roboto Condensed', serif;
+    font-size: calc(20px + 3vw);
+    color: #19adf7;
+    margin: 2vw;
+    text-align: center;
+}
+
+main h3 {
+    color: #19adf7;
+    font-size: calc(15px + 1vw);
+}
+
+main {
+    padding-bottom: 3vw;
+}
+
+html h4 {
+    font-size: calc(15px + 0.5vw);
+}
+
+main p {
+    margin: 2vh 1.5vw;
+    text-align: justify;
+    font-size: calc(12px + 0.4vw);
+}
+
+main h4 {
+    color: white;
+}
+
+li {
+    font-size: calc(12px + 0.4vw);
+}
+
+footer {
+    background-color: #f8ac18;
+    padding: 1vw;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: #1b1b1d;
+}
+
+#contacto-footer img {
+    margin: 0.5vw;
+    max-height: 2vh;
+    min-height: 15px;
+}
+
+
+/* CSS para 'quienes-somos' */
+
+#quienes-somos p {
+    color: white;
+}
+
+#quienes-somos li {
+    color: #19adf7;
+    margin-left: 2.5vw;
+    list-style-type: disc;
+}
+
+#quienes-somos span {
+    color: white;
+}
+
+
+/* CSS para 'contacto' */
+
+form {
+    margin: 5vw;
+    color: white;
+}
+
+#contacto h3 {
+    margin-left: 5vw;
+}
+
+.contactos-varios {
+    justify-content: space-around;
+    margin: 3vw;
+    text-align: center;
+}
+
+.contactos-varios img {
+    max-width: 5vw;
+}
